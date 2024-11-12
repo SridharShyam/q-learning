@@ -5,7 +5,7 @@
 To develop a Python program to find the optimal policy for the given RL environment using Q-Learning and compare the state values with the Monte Carlo method.
 
 ## PROBLEM STATEMENT
-Develop a Python program to derive the optimal policy using Q-Learning and compare state values with Monte Carlo method.
+Implementing the Q-Learning algorithm to train an agent in the Frozen Lake environment and compare its performance with the Monte Carlo algorithm. The objective is to evaluate the success rates, convergence speed, and optimality of policies learned by each algorithm. Performance will be assessed through metrics like average reward per episode and policy stability.
 
 ## Q LEARNING ALGORITHM
 
@@ -68,20 +68,19 @@ def q_learning(env,
 ## OUTPUT:
 
 ### Optimal State Value Functions:
-![image](https://github.com/user-attachments/assets/57bd69cf-6cdf-4745-8c86-47dabde82cdf)
+![image](https://github.com/user-attachments/assets/ac43a9ac-de41-40a2-814f-6a449aa50b91)
 
 
 ### Optimal Action Value Functions:
-![image](https://github.com/user-attachments/assets/d2bd11c1-03df-4543-a802-4578ae417345)
+![image](https://github.com/user-attachments/assets/034105b1-cfac-439e-b6b7-7e3975a5a7ed)
 
 
 ### State value functions of Monte Carlo method:
-![image](https://github.com/user-attachments/assets/6c3d1d76-e874-4be5-99fb-6c4cc9d746e0)
+![image](https://github.com/user-attachments/assets/74771881-bfa1-4ed7-999b-93994cc07670)
 
 
 ### State value functions of Qlearning method:
-![image](https://github.com/user-attachments/assets/49bb8cd8-789f-4e7d-8a55-552284c966ec)
-
+![image](https://github.com/user-attachments/assets/2f05b222-dc55-4797-9fdd-94d2b8996823)
 
 
 ## RESULT:
